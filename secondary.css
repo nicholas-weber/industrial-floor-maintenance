@@ -1,14 +1,30 @@
-/* Sales */
-
-#sales-page .flex-row img {
-    width: 250px;
+/* Home */
+#home-page h2 {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
 }
 
-#logos {
+/* Sales */
+
+#sales-page h2 {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+#sales-row {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1rem;
+}
+
+#sales-row img {
+    height: 285px;
+    width: 215px;
 }
 
 /* Parts */
